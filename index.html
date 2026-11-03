@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NovaByte Solutions | Web, Mobile &amp; Cloud Development Startup</title>
+    <meta name="description" content="NovaByte Solutions is a Bengaluru-based tech startup building fast, secure and accessible websites, mobile apps and cloud solutions for growing businesses.">
+    <meta name="keywords" content="NovaByte Solutions, web development, mobile apps, cloud solutions, UI UX design, startup, Bengaluru">
+    <meta name="author" content="NovaByte Solutions">
+    <meta name="theme-color" content="#1e3a8a">
+
+    <!-- Open Graph tags for better link previews on social media (SEO) -->
+    <meta property="og:title" content="NovaByte Solutions | Building Digital Products That Grow">
+    <meta property="og:description" content="Websites, mobile apps and cloud solutions for growing businesses.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="assets/images/hero-illustration.svg">
+
+    <link rel="icon" href="assets/icons/logo.svg" type="image/svg+xml">
+
+    <!-- Google Fonts: Inter (body) & Poppins (headings) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@600;700;800&display=swap" rel="stylesheet">
+
+    <!-- External CSS Stylesheet (Day 2: CSS3, Flexbox, Responsive) -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Skip link helps keyboard and screen-reader users jump to the main content -->
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+
+    <!-- ===================== HEADER ===================== -->
+    <header class="site-header">
+        <div class="container header-inner">
+            <a href="#home" class="brand" aria-label="NovaByte Solutions home">
+                <img src="assets/icons/logo.svg" alt="NovaByte Solutions logo" width="40" height="40">
+                <span>NovaByte Solutions</span>
+            </a>
+
+            <!-- ===================== NAVIGATION BAR ===================== -->
+            <nav class="main-nav" aria-label="Main navigation">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#team">Team</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main id="main-content">
+
+        <!-- ===================== HERO SECTION ===================== -->
+        <section id="home" class="hero" aria-labelledby="hero-title">
+            <div class="container hero-grid">
+                <div>
+                    <h1 id="hero-title">Building Digital Products That Help Startups Grow</h1>
+                    <p>
+                        NovaByte Solutions designs and develops <strong>fast</strong>, <strong>secure</strong> and
+                        <strong>accessible</strong> websites, mobile apps and cloud platforms for businesses
+                        that are ready to scale.
+                    </p>
+                    <a href="#contact" class="btn">Get a Free Quote</a>
+                    <a href="#services" class="btn btn-outline">Explore Services</a>
+                </div>
+                <img src="assets/images/hero-illustration.svg"
+                     alt="Illustration of a laptop showing an analytics dashboard with a rising growth chart"
+                     width="600" height="400">
+            </div>
+        </section>
+
+        <!-- ===================== ABOUT SECTION ===================== -->
+        <section id="about" aria-labelledby="about-title">
+            <div class="container">
+                <h2 id="about-title">About Us</h2>
+                <div class="two-col">
+                    <img src="assets/images/about-office.svg"
+                         alt="Illustration of the NovaByte office with a desk, computer monitor, window and plant"
+                         width="600" height="400">
+                    <div>
+                        <p>
+                            Founded in 2024 in Bengaluru, NovaByte Solutions is a team of developers, designers
+                            and problem-solvers. We partner with startups and small businesses to turn ideas into
+                            reliable digital products, following modern web standards from day one.
+                        </p>
+
+                        <h3>Our Mission</h3>
+                        <p>
+                            To make high-quality, accessible technology affordable for every growing business.
+                            Learn more about the standards we follow at the
+                            <a href="https://www.w3.org/WAI/" target="_blank" rel="noopener noreferrer">W3C Web Accessibility Initiative</a>.
+                        </p>
+
+                        <h3>How We Work</h3>
+                        <!-- Ordered list: steps happen in a fixed sequence -->
+                        <ol>
+                            <li>Discovery call to understand your goals</li>
+                            <li>Wireframes and UI/UX design</li>
+                            <li>Development and testing</li>
+                            <li>Launch, monitoring and ongoing support</li>
+                        </ol>
+                    </div>
+                </div>
+
+                <!-- Aside: related but secondary information -->
+                <aside aria-labelledby="facts-title">
+                    <h3 id="facts-title">Quick Facts</h3>
+                    <ul>
+                        <li>50+ projects delivered</li>
+                        <li>30+ happy clients across India</li>
+                        <li>98% client satisfaction rate</li>
+                    </ul>
+                </aside>
+
+                <!-- Video element with controls, poster image and fallback text -->
+                <figure>
+                    <video controls preload="metadata" width="640" height="360"
+                           poster="assets/images/video-poster.jpg">
+                        <source src="assets/media/intro-video.mp4" type="video/mp4">
+                        Your browser does not support the HTML5 video element.
+                        <a href="assets/media/intro-video.mp4">Download the intro video</a> instead.
+                    </video>
+                    <figcaption>Video: A short NovaByte Solutions brand intro.</figcaption>
+                </figure>
+            </div>
+        </section>
+
+        <!-- ===================== SERVICES SECTION ===================== -->
+        <section id="services" aria-labelledby="services-title">
+            <div class="container">
+                <h2 id="services-title">Our Services</h2>
+                <p class="section-intro">End-to-end solutions, from the first sketch to a product running in production.</p>
+
+                <div class="card-grid">
+                    <article class="card">
+                        <img src="assets/icons/web-development.svg" alt="" width="48" height="48">
+                        <h3>Web Development</h3>
+                        <p>Responsive, SEO-friendly websites and web applications built with HTML5, CSS3 and JavaScript.</p>
+                    </article>
+
+                    <article class="card">
+                        <img src="assets/icons/mobile-app.svg" alt="" width="48" height="48">
+                        <h3>Mobile App Development</h3>
+                        <p>Cross-platform Android and iOS apps with smooth performance and clean user interfaces.</p>
+                    </article>
+
+                    <article class="card">
+                        <img src="assets/icons/cloud.svg" alt="" width="48" height="48">
+                        <h3>Cloud Solutions</h3>
+                        <p>Scalable hosting, deployment pipelines and secure cloud infrastructure for your apps.</p>
+                    </article>
+
+                    <article class="card">
+                        <img src="assets/icons/design.svg" alt="" width="48" height="48">
+                        <h3>UI/UX Design</h3>
+                        <p>User research, wireframes and prototypes that make your product easy and pleasant to use.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===================== FEATURES SECTION ===================== -->
+        <section id="features" aria-labelledby="features-title">
+            <div class="container">
+                <h2 id="features-title">Why Choose Us</h2>
+                <p class="section-intro">Every project we deliver comes with these features built in.</p>
+
+                <!-- Unordered list: items have no particular order -->
+                <ul class="feature-list">
+                    <li>
+                        <img src="assets/icons/speed.svg" alt="" width="40" height="40">
+                        <span><strong>Fast Performance</strong> &ndash; optimised pages that load in under 2 seconds.</span>
+                    </li>
+                    <li>
+                        <img src="assets/icons/security.svg" alt="" width="40" height="40">
+                        <span><strong>Secure by Default</strong> &ndash; HTTPS, data validation and regular security audits.</span>
+                    </li>
+                    <li>
+                        <img src="assets/icons/support.svg" alt="" width="40" height="40">
+                        <span><strong>24/7 Support</strong> &ndash; a dedicated team ready to help whenever you need it.</span>
+                    </li>
+                    <li>
+                        <img src="assets/icons/web-development.svg" alt="" width="40" height="40">
+                        <span><strong>Accessible &amp; SEO-Ready</strong> &ndash; semantic HTML that search engines and screen readers understand.</span>
+                    </li>
+                </ul>
+
+                <h3>Compare Our Plans</h3>
+                <!-- Data table with caption, header scopes and footer -->
+                <div class="table-wrap">
+                    <table>
+                        <caption>Pricing plans and what each one includes</caption>
+                        <thead>
+                            <tr>
+                                <th scope="col">Feature</th>
+                                <th scope="col">Starter</th>
+                                <th scope="col">Growth</th>
+                                <th scope="col">Enterprise</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">Price (per month)</th>
+                                <td>&#8377;4,999</td>
+                                <td>&#8377;14,999</td>
+                                <td>Custom</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Number of pages</th>
+                                <td>Up to 5</td>
+                                <td>Up to 20</td>
+                                <td>Unlimited</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Mobile responsive</th>
+                                <td>Yes</td>
+                                <td>Yes</td>
+                                <td>Yes</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Cloud hosting</th>
+                                <td>No</td>
+                                <td>Yes</td>
+                                <td>Yes</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Support</th>
+                                <td>Email</td>
+                                <td>Email &amp; Chat</td>
+                                <td>24/7 Dedicated</td>
+                            </tr>
+                        </tbody>
+                        <tfoot>
+                            <tr>
+                                <td colspan="4">Prices exclude GST. All plans include free SSL certificates.</td>
+                            </tr>
+                        </tfoot>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===================== TEAM SECTION ===================== -->
+        <section id="team" aria-labelledby="team-title">
+            <div class="container">
+                <h2 id="team-title">Meet Our Team</h2>
+                <p class="section-intro">The people behind every product we ship.</p>
+
+                <div class="card-grid">
+                    <article class="card team-card">
+                        <img src="assets/images/team-member-1.svg" alt="Avatar of Ananya Rao, Founder and CEO" width="140" height="140">
+                        <h3>Ananya Rao</h3>
+                        <p class="role">Founder &amp; CEO</p>
+                        <p>Leads company vision and client partnerships.</p>
+                    </article>
+
+                    <article class="card team-card">
+                        <img src="assets/images/team-member-2.svg" alt="Avatar of Rahul Mehta, Chief Technology Officer" width="140" height="140">
+                        <h3>Rahul Mehta</h3>
+                        <p class="role">Chief Technology Officer</p>
+                        <p>Architects scalable systems and cloud platforms.</p>
+                    </article>
+
+                    <article class="card team-card">
+                        <img src="assets/images/team-member-3.svg" alt="Avatar of Priya Sharma, Lead UI/UX Designer" width="140" height="140">
+                        <h3>Priya Sharma</h3>
+                        <p class="role">Lead UI/UX Designer</p>
+                        <p>Crafts simple, accessible and beautiful interfaces.</p>
+                    </article>
+
+                    <article class="card team-card">
+                        <img src="assets/images/team-member-4.svg" alt="Avatar of Arjun Nair, Full Stack Developer" width="140" height="140">
+                        <h3>Arjun Nair</h3>
+                        <p class="role">Full Stack Developer</p>
+                        <p>Builds features end to end, from database to UI.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===================== CONTACT SECTION ===================== -->
+        <section id="contact" aria-labelledby="contact-title">
+            <div class="container">
+                <h2 id="contact-title">Contact Us</h2>
+                <p class="section-intro">Have a project in mind? Fill in the form and we will reply within 24 hours.</p>
+
+                <div class="two-col">
+                    <!-- Contact form with HTML5 validation -->
+                    <form action="#" method="post">
+                        <fieldset>
+                            <legend>Send us a message</legend>
+
+                            <div>
+                                <label for="full-name">Full Name</label>
+                                <input type="text" id="full-name" name="full_name"
+                                       placeholder="Enter your full name"
+                                       autocomplete="name" minlength="3" required>
+                            </div>
+
+                            <div>
+                                <label for="email">Email Address</label>
+                                <input type="email" id="email" name="email"
+                                       placeholder="you@example.com"
+                                       autocomplete="email" required>
+                            </div>
+
+                            <div>
+                                <label for="phone">Phone Number</label>
+                                <input type="tel" id="phone" name="phone"
+                                       placeholder="10-digit mobile number, e.g. 9876543210"
+                                       pattern="[0-9]{10}" title="Enter a 10-digit phone number"
+                                       autocomplete="tel" required>
+                            </div>
+
+                            <div>
+                                <label for="subject">Subject</label>
+                                <input type="text" id="subject" name="subject"
+                                       placeholder="What is your message about?" required>
+                            </div>
+
+                            <div>
+                                <label for="message">Message</label>
+                                <textarea id="message" name="message" rows="5"
+                                          placeholder="Tell us about your project..." required></textarea>
+                            </div>
+
+                            <div>
+                                <button type="submit" class="btn">Submit</button>
+                                <button type="reset" class="btn btn-outline">Reset</button>
+                            </div>
+                        </fieldset>
+                    </form>
+
+                    <div class="contact-info">
+                        <h3>Visit Our Office</h3>
+
+                        <h4>Head Office</h4>
+                        <address>
+                            <p><img src="assets/icons/location.svg" alt="" width="24" height="24">NovaByte Solutions, 2nd Floor, MG Road, Bengaluru, Karnataka 560001</p>
+                            <p><img src="assets/icons/phone.svg" alt="" width="24" height="24"><a href="tel:+919876543210">+91 98765 43210</a></p>
+                            <p><img src="assets/icons/email.svg" alt="" width="24" height="24"><a href="mailto:hello@novabyte.example">hello@novabyte.example</a></p>
+                        </address>
+
+                        <h5>Working Hours</h5>
+                        <p>Monday to Friday, 9:00 AM &ndash; 6:00 PM (IST)</p>
+
+                        <h6>Holidays</h6>
+                        <p>Closed on Saturdays, Sundays and public holidays.</p>
+
+                        <!-- Embedded Google Map using an iframe -->
+                        <div class="map">
+                            <iframe src="https://maps.google.com/maps?q=MG%20Road%2C%20Bengaluru&amp;z=15&amp;output=embed"
+                                    title="Google Map showing the NovaByte Solutions office on MG Road, Bengaluru"
+                                    width="600" height="300"
+                                    loading="lazy"
+                                    referrerpolicy="no-referrer-when-downgrade"
+                                    allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- ===================== FOOTER ===================== -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div>
+                    <h2>NovaByte Solutions</h2>
+                    <p>Building fast, secure and accessible digital products for growing businesses.</p>
+                </div>
+
+                <nav aria-label="Footer navigation">
+                    <h2>Quick Links</h2>
+                    <ul>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#team">Our Team</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+
+                <div>
+                    <h2>Follow Us</h2>
+                    <ul>
+                        <li><a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+                        <li><a href="https://github.com/" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+                        <li><a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">Instagram</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h2>Newsletter</h2>
+                    <form action="#" method="post" class="newsletter">
+                        <label for="newsletter-email" class="visually-hidden">Email for newsletter</label>
+                        <input type="email" id="newsletter-email" name="newsletter_email" placeholder="Your email" required>
+                        <button type="submit" class="btn">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+
+            <p class="copyright">
+                <small>&copy; 2026 NovaByte Solutions. All rights reserved. | <a href="#home">Back to top &uarr;</a></small>
+            </p>
+        </div>
+    </footer>
+
+</body>
+</html>
