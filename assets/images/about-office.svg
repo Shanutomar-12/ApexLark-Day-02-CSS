@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="600" height="400" role="img" aria-labelledby="t"><title id="t">Modern startup office workspace</title>
+<rect width="600" height="400" rx="24" fill="#f1f5f9"/>
+<rect x="0" y="290" width="600" height="110" fill="#cbd5e1"/>
+<rect x="60" y="60" width="160" height="110" rx="8" fill="#bae6fd" stroke="#64748b" stroke-width="4"/>
+<line x1="140" y1="60" x2="140" y2="170" stroke="#64748b" stroke-width="4"/>
+<rect x="260" y="200" width="260" height="14" rx="4" fill="#78350f"/>
+<rect x="280" y="214" width="10" height="76" fill="#78350f"/><rect x="490" y="214" width="10" height="76" fill="#78350f"/>
+<rect x="320" y="130" width="120" height="70" rx="6" fill="#1e3a8a"/><rect x="370" y="200" width="20" height="0" fill="#1e293b"/>
+<rect x="330" y="140" width="100" height="50" rx="3" fill="#0ea5e9"/>
+<circle cx="110" cy="260" r="34" fill="#16a34a"/><rect x="96" y="260" width="28" height="40" fill="#92400e"/>
+<circle cx="530" cy="120" r="26" fill="#fde68a"/>
+</svg>

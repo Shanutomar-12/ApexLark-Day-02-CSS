@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="600" height="400" role="img" aria-labelledby="t"><title id="t">Team collaborating on a digital product</title>
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1e3a8a"/><stop offset="1" stop-color="#0ea5e9"/></linearGradient></defs>
+<rect width="600" height="400" rx="24" fill="#eff6ff"/>
+<circle cx="480" cy="90" r="60" fill="#bae6fd"/><circle cx="110" cy="320" r="44" fill="#ddd6fe"/>
+<rect x="130" y="80" width="340" height="220" rx="14" fill="url(#g)"/>
+<rect x="150" y="100" width="300" height="24" rx="6" fill="#ffffff" opacity=".25"/>
+<rect x="150" y="140" width="140" height="130" rx="8" fill="#ffffff" opacity=".9"/>
+<rect x="305" y="140" width="145" height="58" rx="8" fill="#ffffff" opacity=".6"/>
+<rect x="305" y="212" width="145" height="58" rx="8" fill="#ffffff" opacity=".6"/>
+<polyline points="162,250 190,215 215,232 245,190 275,205" fill="none" stroke="#7c3aed" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="250" y="300" width="100" height="16" fill="#1e293b"/><rect x="210" y="316" width="180" height="12" rx="6" fill="#334155"/>
+</svg>
